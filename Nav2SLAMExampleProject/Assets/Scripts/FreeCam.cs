@@ -49,8 +49,12 @@ public class FreeCam : MonoBehaviour
     /// </summary>
     bool m_Looking;
 
+    public GameObject turtlebot3;
+    private Vector3 offset;
+
     void Update()
     {
+        offset = transform.position - turtlebot3.transform.position;
         var fastMode = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         var movementSpeed = fastMode ? m_FastMovementSpeed : m_MovementSpeed;
 

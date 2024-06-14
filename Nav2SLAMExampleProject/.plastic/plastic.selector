@@ -1,0 +1,4 @@
+repository "CameraRo@MOIRO_DEV@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,3 +1,7 @@
+# related ROS2
+ros2_docker/colcon_ws/install/
+ros2_docker/colcon_ws/log/
+
 # Custom settings asset
 *.settings.asset*
 
